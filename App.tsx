@@ -412,7 +412,7 @@ const App: React.FC = () => {
               <h1 className="text-2xl font-bold tracking-tight text-white">
                 Safety<span className="text-yellow-500">Speak</span>
               </h1>
-              <p className="text-slate-400 text-sm">건설현장 다국어 안전교육 통역기 (Batch)</p>
+              <p className="text-slate-400 text-sm">건설현장 다국어 안전교육 통역기 (Batch) v1.1</p>
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-2 text-yellow-500 text-sm font-semibold uppercase tracking-wider border border-yellow-500/30 px-3 py-1 rounded bg-yellow-500/10">
