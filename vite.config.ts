@@ -7,8 +7,8 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, (process as any).cwd(), '');
   return {
     plugins: [react()],
-    // GitHub Pages repository name used as base path
-    base: '/safespeak/', 
+    // Use relative base path so the app works under any repo name (e.g. username.github.io/repo-name/)
+    base: './', 
     define: {
       // Polyfill process.env.API_KEY for the app usage
       'process.env.API_KEY': JSON.stringify(env.API_KEY),
