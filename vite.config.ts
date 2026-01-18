@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react()],
     // Use relative base path so the app works under any repo name (e.g. username.github.io/repo-name/)
-    base: './', 
+    base: "/safetyspeak2/", 
     define: {
       // Polyfill process.env.API_KEY for the app usage
       'process.env.API_KEY': JSON.stringify(env.API_KEY),
