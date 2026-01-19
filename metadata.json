@@ -1,5 +1,0 @@
-{
-  "name": "SafetySpeak - Construction Interpreter",
-  "description": "AI-powered concurrent interpreter for construction safety education. Translates Korean safety materials into English, Chinese, Vietnamese, Russian, and Uzbek with text-to-speech output.",
-  "requestFramePermissions": []
-}
